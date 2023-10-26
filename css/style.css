@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Poppins:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.all {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.589),
+      rgba(0, 0, 0, 0.623)
+    ),
+    url(../img/afri-fashion.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.small-bio {
+  padding: 80px 0;
+  background: url("../img/black-scaled.webp") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-bio::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(21, 22, 37, 0.514);
+  color: #fff;
+}
+
+/* Featured */
+
+.feat {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.274),
+      rgba(0, 0, 0, 0.308)
+    ),
+    url(../img/featured.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  background: #f1f4fd;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+}
+
+/* .carousel {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: max-content;
+  gap: 1rem;
+}
+
+figure {
+  flex: 0 0 auto;
+  scroll-snap-align: space between;
+} */
+.team-car-icon {
+  position: absolute;
+  background-color: white;
+  font-size: 20px;
+  color: #000;
+  padding: 7px;
+  transform: translateY(-50%);
+  transition: 0.5s ease-in-out;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-carousel:hover .team-car-icon {
+  opacity: 1;
+}
+
+.team-car-icon-l {
+  left: 20px;
+  top: 50%;
+}
+
+.team-car-icon-r {
+  right: 20px;
+  top: 50%;
+}
