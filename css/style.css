@@ -34,7 +34,7 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(21, 22, 37, 0.514);
+  background: rgba(21, 22, 37, 0.74);
   color: #fff;
 }
 
@@ -64,18 +64,9 @@
   width: 95%;
 }
 
-/* .carousel {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  width: max-content;
-  gap: 1rem;
-}
+/* CAROUSEL */
 
-figure {
-  flex: 0 0 auto;
-  scroll-snap-align: space between;
-} */
-.team-car-icon {
+.slide-icon {
   position: absolute;
   background-color: white;
   font-size: 20px;
@@ -91,16 +82,16 @@ figure {
   justify-content: center;
 }
 
-.team-carousel:hover .team-car-icon {
+.slide-carousel:hover .slide-icon {
   opacity: 1;
 }
 
-.team-car-icon-l {
+.slide-icon-l {
   left: 20px;
   top: 50%;
 }
 
-.team-car-icon-r {
+.slide-icon-r {
   right: 20px;
   top: 50%;
 }
